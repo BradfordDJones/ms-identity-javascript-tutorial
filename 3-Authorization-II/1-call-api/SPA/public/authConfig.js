@@ -5,9 +5,9 @@
  */
 const msalConfig = {
     auth: {
-        clientId: 'Enter_the_Application_Id_Here', // This is the ONLY mandatory field that you need to supply.
-        authority: 'https://login.microsoftonline.com/Enter_the_Tenant_Info_Here', // Replace the placeholder with your tenant name
-        redirectUri: '/', // You must register this URI on Azure Portal/App Registration. Defaults to window.location.href e.g. http://localhost:3000/,
+        clientId: 'b5a85605-425f-40a0-b7c2-c8f71c1722c7', // This is the ONLY mandatory field that you need to supply.
+        authority: "https://login.microsoftonline.com/7c0f634a-eb8a-4915-ab09-8bbc46322cb3",
+        redirectUri: 'http://localhost:3000/', // You must register this URI on Azure Portal/App Registration. Defaults to window.location.href e.g. http://localhost:3000/
         postLogoutRedirectUri: '/', // Indicates the page to navigate after logout.
     },
     cache: {
